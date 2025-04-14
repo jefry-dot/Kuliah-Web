@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Praktikum - Afrizal Dean Trisandy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .student-info {
+            color: #7f8c8d;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .task-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            transition: transform 0.2s;
+        }
+
+        .task-section:hover {
+            transform: translateX(10px);
+        }
+
+        .task-section h2 {
+            color: #3498db;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .link-btn {
+            text-decoration: none;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .lihat-tugas {
+            background-color: #3498db;
+            color: white;
+        }
+
+        .lihat-progress {
+            background-color: #2ecc71;
+            color: white;
+        }
+
+        .link-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .links {
+                flex-direction: column;
+            }
+            
+            .link-btn {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>PROGRESS PRAKTIKUM</h1>
+            <div class="student-info">
+                <p>Nama: Salomo Jefry Immanuel Pakpahan</p>
+                <p>NIM: 2310631170118</p>
+                <p>Kelas: 4D Informatika</p>
+            </div>
+        </div>
+
+        <div class="task-section">
+            <h2>Tugas 1</h2>
+            <div class="links">
+                <a href="./Pertemuan3_tugas/index.html" class="link-btn lihat-tugas">Lihat Hasil Tugas</a>
+                <a href="./Progress_pert3/index.html" class="link-btn lihat-progress">Lihat Hasil Progress</a>
+            </div>
+        </div>
+
+        <div class="task-section">
+            <h2>Tugas 2</h2>
+            <div class="links">
+                <a href="./Pertemuan4_tugas/index.html" class="link-btn lihat-tugas">Lihat Hasil Tugas</a>
+                <a href="./Progress_pert4/index.html" class="link-btn lihat-progress">Lihat Hasil Progress</a>
+            </div>
+        </div>
+
+        <div class="task-section">
+            <h2>Tugas 3</h2>
+            <div class="links">
+                <a href="./Pertemuan5_tugas/index.html" class="link-btn lihat-tugas">Lihat Hasil Tugas</a>
+                <a href="./Progress_pert5/index.html" class="link-btn lihat-progress">Lihat Hasil Progress</a>
+            </div>
+        </div>
+
+        <div class="task-section">
+            <h2>Tugas 4</h2>
+            <div class="links">
+                <a href="./Pertemuan6_tugas/css.html" class="link-btn lihat-tugas">Lihat Hasil Tugas</a>
+                <a href="./Progress_pert6/index.html" class="link-btn lihat-progress">Lihat Hasil Progress</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
